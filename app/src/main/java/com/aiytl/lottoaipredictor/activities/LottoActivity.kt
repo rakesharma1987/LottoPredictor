@@ -1794,30 +1794,30 @@ class LottoActivity : BaseActivity(), View.OnClickListener {
                         var sumDigits612: Int = getSumOfDigits(sumCol612!!)
 
                         val powSumDigits17 =
-                            BigInteger(sumDigits17.toString().replace('0', '7')).pow(80)
+                            BigInteger(sumDigits17.toString()).pow(80)
                         val powSumDigits28 =
-                            BigInteger(sumDigits28.toString().replace('0', '7')).pow(80)
+                            BigInteger(sumDigits28.toString()).pow(80)
                         val powSumDigits39 =
-                            BigInteger(sumDigits39.toString().replace('0', '7')).pow(80)
+                            BigInteger(sumDigits39.toString()).pow(80)
                         val powSumDigits410 =
-                            BigInteger(sumDigits410.toString().replace('0', '7')).pow(80)
+                            BigInteger(sumDigits410.toString()).pow(80)
                         val powSumDigits511 =
-                            BigInteger(sumDigits511.toString().replace('0', '7')).pow(80)
+                            BigInteger(sumDigits511.toString()).pow(80)
                         val powSumDigits612 =
-                            BigInteger(sumDigits612.toString().replace('0', '7')).pow(80)
+                            BigInteger(sumDigits612.toString()).pow(80)
 
                         val result17 =
-                            powSumDigits17.toString().map { it.toString() }.toTypedArray()
+                            powSumDigits17.toString().replace("0", "7").map { it.toString() }.toTypedArray()
                         val result28 =
-                            powSumDigits28.toString().map { it.toString() }.toTypedArray()
+                            powSumDigits28.toString().replace("0", "7").map { it.toString() }.toTypedArray()
                         val result39 =
-                            powSumDigits39.toString().map { it.toString() }.toTypedArray()
+                            powSumDigits39.toString().replace("0", "7").map { it.toString() }.toTypedArray()
                         val result410 =
-                            powSumDigits410.toString().map { it.toString() }.toTypedArray()
+                            powSumDigits410.toString().replace("0", "7").map { it.toString() }.toTypedArray()
                         val result511 =
-                            powSumDigits511.toString().map { it.toString() }.toTypedArray()
+                            powSumDigits511.toString().replace("0", "7").map { it.toString() }.toTypedArray()
                         val result612 =
-                            powSumDigits612.toString().map { it.toString() }.toTypedArray()
+                            powSumDigits612.toString().replace("0", "7").map { it.toString() }.toTypedArray()
 
                         var num1: String? = null
                         var num2: String? = null
@@ -2113,26 +2113,26 @@ class LottoActivity : BaseActivity(), View.OnClickListener {
                         var sumDigits510: Int = getSumOfDigits(sumCol510!!)
 
                         val powSumDigits16 =
-                            BigInteger(sumDigits16.toString().replace('0', '7')).pow(80)
+                            BigInteger(sumDigits16.toString()).pow(80)
                         val powSumDigits27 =
-                            BigInteger(sumDigits27.toString().replace('0', '7')).pow(80)
+                            BigInteger(sumDigits27.toString()).pow(80)
                         val powSumDigits38 =
-                            BigInteger(sumDigits38.toString().replace('0', '7')).pow(80)
+                            BigInteger(sumDigits38.toString()).pow(80)
                         val powSumDigits49 =
-                            BigInteger(sumDigits49.toString().replace('0', '7')).pow(80)
+                            BigInteger(sumDigits49.toString()).pow(80)
                         val powSumDigits510 =
-                            BigInteger(sumDigits510.toString().replace('0', '7')).pow(80)
+                            BigInteger(sumDigits510.toString()).pow(80)
 
                         val result17 =
-                            powSumDigits16.toString().map { it.toString() }.toTypedArray()
+                            powSumDigits16.toString().replace("0", "7").map { it.toString() }.toTypedArray()
                         val result28 =
-                            powSumDigits27.toString().map { it.toString() }.toTypedArray()
+                            powSumDigits27.toString().replace("0", "7").map { it.toString() }.toTypedArray()
                         val result39 =
-                            powSumDigits38.toString().map { it.toString() }.toTypedArray()
+                            powSumDigits38.toString().replace("0", "7").map { it.toString() }.toTypedArray()
                         val result410 =
-                            powSumDigits49.toString().map { it.toString() }.toTypedArray()
+                            powSumDigits49.toString().replace("0", "7").map { it.toString() }.toTypedArray()
                         val result511 =
-                            powSumDigits510.toString().map { it.toString() }.toTypedArray()
+                            powSumDigits510.toString().replace("0", "7").map { it.toString() }.toTypedArray()
 
                         var num1: String? = null
                         var num2: String? = null
@@ -2418,32 +2418,32 @@ class LottoActivity : BaseActivity(), View.OnClickListener {
                         var sumDigits714: Int = getSumOfDigits(sumCol714!!)
 
                         val powSumDigits18 =
-                            BigInteger(sumDigits18.toString().replace('0', '7')).pow(80)
+                            BigInteger(sumDigits18.toString()).pow(80)
                         val powSumDigits29 =
-                            BigInteger(sumDigits29.toString().replace('0', '7')).pow(80)
+                            BigInteger(sumDigits29.toString()).pow(80)
                         val powSumDigits310 =
-                            BigInteger(sumDigits310.toString().replace('0', '7')).pow(80)
+                            BigInteger(sumDigits310.toString()).pow(80)
                         val powSumDigits411 =
-                            BigInteger(sumDigits411.toString().replace('0', '7')).pow(80)
+                            BigInteger(sumDigits411.toString()).pow(80)
                         val powSumDigits512 =
-                            BigInteger(sumDigits512.toString().replace('0', '7')).pow(80)
+                            BigInteger(sumDigits512.toString()).pow(80)
                         val powSumDigits613 =
-                            BigInteger(sumDigits613.toString().replace('0', '7')).pow(80)
+                            BigInteger(sumDigits613.toString()).pow(80)
                         val powSumDigits714 =
-                            BigInteger(sumDigits714.toString().replace('0', '7')).pow(80)
+                            BigInteger(sumDigits714.toString()).pow(80)
 
                         val result17 =
-                            powSumDigits18.toString().map { it.toString() }.toTypedArray()
+                            powSumDigits18.toString().replace("0", "7").map { it.toString() }.toTypedArray()
                         val result28 =
-                            powSumDigits29.toString().map { it.toString() }.toTypedArray()
+                            powSumDigits29.toString().replace("0", "7").map { it.toString() }.toTypedArray()
                         val result39 =
-                            powSumDigits310.toString().map { it.toString() }.toTypedArray()
+                            powSumDigits310.toString().replace("0", "7").map { it.toString() }.toTypedArray()
                         val result410 =
-                            powSumDigits411.toString().map { it.toString() }.toTypedArray()
+                            powSumDigits411.toString().replace("0", "7").map { it.toString() }.toTypedArray()
                         val result511 =
-                            powSumDigits512.toString().map { it.toString() }.toTypedArray()
+                            powSumDigits512.toString().replace("0", "7").map { it.toString() }.toTypedArray()
                         val result612 =
-                            powSumDigits613.toString().map { it.toString() }.toTypedArray()
+                            powSumDigits613.toString().replace("0", "7").map { it.toString() }.toTypedArray()
                         val result714 =
                             powSumDigits714.toString().map { it.toString() }.toTypedArray()
 
@@ -2830,19 +2830,19 @@ class LottoActivity : BaseActivity(), View.OnClickListener {
             var sumDigits511: Int = getSumOfDigits(sumCol511!!)
             var sumDigits612: Int = getSumOfDigits(sumCol612!!)
 
-            val powSumDigits17 = BigInteger(sumDigits17.toString().replace('0', '7')).pow(80)
-            val powSumDigits28 = BigInteger(sumDigits28.toString().replace('0', '7')).pow(80)
-            val powSumDigits39 = BigInteger(sumDigits39.toString().replace('0', '7')).pow(80)
-            val powSumDigits410 = BigInteger(sumDigits410.toString().replace('0', '7')).pow(80)
-            val powSumDigits511 = BigInteger(sumDigits511.toString().replace('0', '7')).pow(80)
-            val powSumDigits612 = BigInteger(sumDigits612.toString().replace('0', '7')).pow(80)
+            val powSumDigits17 = BigInteger(sumDigits17.toString()).pow(80)
+            val powSumDigits28 = BigInteger(sumDigits28.toString()).pow(80)
+            val powSumDigits39 = BigInteger(sumDigits39.toString()).pow(80)
+            val powSumDigits410 = BigInteger(sumDigits410.toString()).pow(80)
+            val powSumDigits511 = BigInteger(sumDigits511.toString()).pow(80)
+            val powSumDigits612 = BigInteger(sumDigits612.toString()).pow(80)
 
-            val result17 = powSumDigits17.toString().map { it.toString() }.toTypedArray()
-            val result28 = powSumDigits28.toString().map { it.toString() }.toTypedArray()
-            val result39 = powSumDigits39.toString().map { it.toString() }.toTypedArray()
-            val result410 = powSumDigits410.toString().map { it.toString() }.toTypedArray()
-            val result511 = powSumDigits511.toString().map { it.toString() }.toTypedArray()
-            val result612 = powSumDigits612.toString().map { it.toString() }.toTypedArray()
+            val result17 = powSumDigits17.toString().replace("0", "7").map { it.toString() }.toTypedArray()
+            val result28 = powSumDigits28.toString().replace("0", "7").map { it.toString() }.toTypedArray()
+            val result39 = powSumDigits39.toString().replace("0", "7").map { it.toString() }.toTypedArray()
+            val result410 = powSumDigits410.toString().replace("0", "7").map { it.toString() }.toTypedArray()
+            val result511 = powSumDigits511.toString().replace("0", "7").map { it.toString() }.toTypedArray()
+            val result612 = powSumDigits612.toString().replace("0", "7").map { it.toString() }.toTypedArray()
 
             var num1: String? = null
             var num2: String? = null
@@ -6071,17 +6071,17 @@ class LottoActivity : BaseActivity(), View.OnClickListener {
             var sumDigits49: Int = getSumOfDigits(sumCol410!!)
             var sumDigits510: Int = getSumOfDigits(sumCol511!!)
 
-            val powSumDigits16 = BigInteger(sumDigits16.toString().replace('0', '7')).pow(80)
-            val powSumDigits27 = BigInteger(sumDigits27.toString().replace('0', '7')).pow(80)
-            val powSumDigits38 = BigInteger(sumDigits38.toString().replace('0', '7')).pow(80)
-            val powSumDigits49 = BigInteger(sumDigits49.toString().replace('0', '7')).pow(80)
-            val powSumDigits510 = BigInteger(sumDigits510.toString().replace('0', '7')).pow(80)
+            val powSumDigits16 = BigInteger(sumDigits16.toString()).pow(80)
+            val powSumDigits27 = BigInteger(sumDigits27.toString()).pow(80)
+            val powSumDigits38 = BigInteger(sumDigits38.toString()).pow(80)
+            val powSumDigits49 = BigInteger(sumDigits49.toString()).pow(80)
+            val powSumDigits510 = BigInteger(sumDigits510.toString()).pow(80)
 
-            val result17 = powSumDigits16.toString().map { it.toString() }.toTypedArray()
-            val result28 = powSumDigits27.toString().map { it.toString() }.toTypedArray()
-            val result39 = powSumDigits38.toString().map { it.toString() }.toTypedArray()
-            val result410 = powSumDigits49.toString().map { it.toString() }.toTypedArray()
-            val result511 = powSumDigits510.toString().map { it.toString() }.toTypedArray()
+            val result17 = powSumDigits16.toString().replace("0", "7").map { it.toString() }.toTypedArray()
+            val result28 = powSumDigits27.toString().replace("0", "7").map { it.toString() }.toTypedArray()
+            val result39 = powSumDigits38.toString().replace("0", "7").map { it.toString() }.toTypedArray()
+            val result410 = powSumDigits49.toString().replace("0", "7").map { it.toString() }.toTypedArray()
+            val result511 = powSumDigits510.toString().replace("0", "7").map { it.toString() }.toTypedArray()
 
             var num1: String? = null
             var num2: String? = null
@@ -8727,21 +8727,21 @@ class LottoActivity : BaseActivity(), View.OnClickListener {
             var sumDigits613: Int = getSumOfDigits(sumCol613!!)
             var sumDigits714: Int = getSumOfDigits(sumCol714!!)
 
-            val powSumDigits18 = BigInteger(sumDigits18.toString().replace('0', '7')).pow(80)
-            val powSumDigits29 = BigInteger(sumDigits29.toString().replace('0', '7')).pow(80)
-            val powSumDigits310 = BigInteger(sumDigits310.toString().replace('0', '7')).pow(80)
-            val powSumDigits411 = BigInteger(sumDigits411.toString().replace('0', '7')).pow(80)
-            val powSumDigits512 = BigInteger(sumDigits512.toString().replace('0', '7')).pow(80)
-            val powSumDigits613 = BigInteger(sumDigits613.toString().replace('0', '7')).pow(80)
-            val powSumDigits714 = BigInteger(sumDigits714.toString().replace('0', '7')).pow(80)
+            val powSumDigits18 = BigInteger(sumDigits18.toString()).pow(80)
+            val powSumDigits29 = BigInteger(sumDigits29.toString()).pow(80)
+            val powSumDigits310 = BigInteger(sumDigits310.toString()).pow(80)
+            val powSumDigits411 = BigInteger(sumDigits411.toString()).pow(80)
+            val powSumDigits512 = BigInteger(sumDigits512.toString()).pow(80)
+            val powSumDigits613 = BigInteger(sumDigits613.toString()).pow(80)
+            val powSumDigits714 = BigInteger(sumDigits714.toString()).pow(80)
 
-            val result17 = powSumDigits18.toString().map { it.toString() }.toTypedArray()
-            val result28 = powSumDigits29.toString().map { it.toString() }.toTypedArray()
-            val result39 = powSumDigits310.toString().map { it.toString() }.toTypedArray()
-            val result410 = powSumDigits411.toString().map { it.toString() }.toTypedArray()
-            val result511 = powSumDigits512.toString().map { it.toString() }.toTypedArray()
-            val result612 = powSumDigits613.toString().map { it.toString() }.toTypedArray()
-            val result714 = powSumDigits714.toString().map { it.toString() }.toTypedArray()
+            val result17 = powSumDigits18.toString().replace("0", "7").map { it.toString() }.toTypedArray()
+            val result28 = powSumDigits29.toString().replace("0", "7").map { it.toString() }.toTypedArray()
+            val result39 = powSumDigits310.toString().replace("0", "7").map { it.toString() }.toTypedArray()
+            val result410 = powSumDigits411.toString().replace("0", "7").map { it.toString() }.toTypedArray()
+            val result511 = powSumDigits512.toString().replace("0", "7").map { it.toString() }.toTypedArray()
+            val result612 = powSumDigits613.toString().replace("0", "7").map { it.toString() }.toTypedArray()
+            val result714 = powSumDigits714.toString().replace("0", "7").map { it.toString() }.toTypedArray()
 
             var num1: String? = null
             var num2: String? = null
