@@ -11,6 +11,7 @@ import android.view.View.VISIBLE
 import android.widget.GridLayout
 import android.widget.LinearLayout
 import android.widget.RelativeLayout
+import android.widget.Toast
 import androidx.constraintlayout.widget.ConstraintSet.GONE
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -167,7 +168,16 @@ class LottoActivity : BaseActivity(), View.OnClickListener {
 
         val purchasesUpdatedListener =
             PurchasesUpdatedListener { billingResult, purchases ->
-                // To be implemented in a later section.
+                if(billingResult.responseCode == BillingClient.BillingResponseCode.OK){
+                    if (purchases != null) {
+                        handlePurchases(purchases)
+                    }
+                    GooglePlayBillingPreferences.setPurchased(true)
+                    binding.btnGen40nos.text = "Generate 40's Lines/Rows"
+                }else if(billingResult.responseCode == BillingClient.BillingResponseCode.USER_CANCELED){
+                    GooglePlayBillingPreferences.setPurchased(false)
+                    binding.btnGen40nos.text = "Generate 40's Lines/Rows(Paid Version)"
+                }
             }
 
         billingClient = BillingClient.newBuilder(context)
@@ -176,7 +186,7 @@ class LottoActivity : BaseActivity(), View.OnClickListener {
             .build()
 
         skulList = ArrayList<String>()
-        skulList.add("android.test.purchased")
+        skulList.add("lottoaipredictor")
 
         billingClient.startConnection(object : BillingClientStateListener {
             override fun onBillingSetupFinished(billingResult: BillingResult) {
@@ -1676,7 +1686,7 @@ class LottoActivity : BaseActivity(), View.OnClickListener {
                 var adRequest = AdRequest.Builder().build()
                 InterstitialAd.load(
                     this,
-                    "ca-app-pub-3940256099942544/1033173712",
+                    "ca-app-pub-3164749634609559/7102887092",
                     adRequest,
                     object : InterstitialAdLoadCallback() {
                         override fun onAdFailedToLoad(adError: LoadAdError) {
@@ -11929,6 +11939,24 @@ class LottoActivity : BaseActivity(), View.OnClickListener {
 
     private fun initFBIntAdd() {
 
+    }
+
+    fun handlePurchases(purchases: List<Purchase>) {
+        for (purchase in purchases) {
+            if (!purchase.isAcknowledged) {
+                val acknowledgePurchaseParams = AcknowledgePurchaseParams.newBuilder()
+                    .setPurchaseToken(purchase.purchaseToken)
+                    .build()
+                billingClient!!.acknowledgePurchase(acknowledgePurchaseParams, ackPurchase)
+            }
+        }
+    }
+    var ackPurchase = AcknowledgePurchaseResponseListener { billingResult ->
+        if (billingResult.responseCode == BillingClient.BillingResponseCode.OK) {
+            GooglePlayBillingPreferences.setPurchased(true)
+            Toast.makeText(applicationContext, "Item Purchased", Toast.LENGTH_SHORT).show()
+            recreate()
+        }
     }
 
 }
