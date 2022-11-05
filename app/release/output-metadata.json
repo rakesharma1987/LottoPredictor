@@ -4,15 +4,15 @@
     "type": "APK",
     "kind": "Directory"
   },
-  "applicationId": "com.aiytl.lottoaipredictor",
+  "applicationId": "com.suvarnatechlabs.lottoaipredictor",
   "variantName": "release",
   "elements": [
     {
       "type": "SINGLE",
       "filters": [],
       "attributes": [],
-      "versionCode": 2,
-      "versionName": "1.2",
+      "versionCode": 1,
+      "versionName": "1.1",
       "outputFile": "app-release.apk"
     }
   ],

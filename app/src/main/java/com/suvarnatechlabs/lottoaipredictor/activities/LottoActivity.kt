@@ -45,7 +45,8 @@ class LottoActivity : BaseActivity(), View.OnClickListener {
         "41", "42", "43", "44", "45", "46", "47", "48", "49", "50",
         "51", "52", "53", "54", "55", "56", "57", "58", "59", "60",
         "61", "62", "63", "64", "65", "66", "67", "68", "69", "70",
-        "71", "72", "73", "74", "75", "76", "77", "78", "79", "80"
+        "71", "72", "73", "74", "75", "76", "77", "78", "79", "80",
+        "81", "82", "83", "84", "85", "86", "87", "88", "89", "90"
     )
     private val listOfColumns = listOf<String>("5", "6", "7")
 
@@ -6075,11 +6076,17 @@ class LottoActivity : BaseActivity(), View.OnClickListener {
             sumCol49 = Integer.parseInt(string4).plus(Integer.parseInt(string10))
             sumCol510 = Integer.parseInt(string5).plus(Integer.parseInt(string6))
 
-            var sumDigits16: Int = getSumOfDigits(sumCol17!!)
-            var sumDigits27: Int = getSumOfDigits(sumCol28!!)
-            var sumDigits38: Int = getSumOfDigits(sumCol39!!)
-            var sumDigits49: Int = getSumOfDigits(sumCol410!!)
-            var sumDigits510: Int = getSumOfDigits(sumCol511!!)
+//            var sumDigits16: Int = getSumOfDigits(sumCol17!!)
+//            var sumDigits27: Int = getSumOfDigits(sumCol28!!)
+//            var sumDigits38: Int = getSumOfDigits(sumCol39!!)
+//            var sumDigits49: Int = getSumOfDigits(sumCol410!!)
+//            var sumDigits510: Int = getSumOfDigits(sumCol511!!)
+
+            var sumDigits16: Int = getSumOfDigits(sumCol16!!)
+            var sumDigits27: Int = getSumOfDigits(sumCol27!!)
+            var sumDigits38: Int = getSumOfDigits(sumCol38!!)
+            var sumDigits49: Int = getSumOfDigits(sumCol49!!)
+            var sumDigits510: Int = getSumOfDigits(sumCol510!!)
 
             val powSumDigits16 = BigInteger(sumDigits16.toString()).pow(80)
             val powSumDigits27 = BigInteger(sumDigits27.toString()).pow(80)
