@@ -173,6 +173,7 @@
         ads:adUnitId="ca-app-pub-3164749634609559/8033906959"
         ads:layout_constraintBottom_toBottomOf="parent"
         ads:layout_constraintEnd_toEndOf="parent"
-        ads:layout_constraintStart_toStartOf="parent" />
+        ads:layout_constraintStart_toStartOf="parent"
+        android:visibility="gone"/>
 
 </RelativeLayout>

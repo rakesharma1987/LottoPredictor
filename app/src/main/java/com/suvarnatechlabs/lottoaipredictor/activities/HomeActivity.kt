@@ -24,8 +24,8 @@ class HomeActivity : AppCompatActivity(), View.OnClickListener {
         binding.btnRateApp.setOnClickListener(this)
         binding.btnOtherApp.setOnClickListener(this)
 
-        MobileAds.initialize(this)
-        binding.bannerAdview.loadAd(AdRequest.Builder().build())
+//        MobileAds.initialize(this)
+//        binding.bannerAdview.loadAd(AdRequest.Builder().build())
 
     }
 

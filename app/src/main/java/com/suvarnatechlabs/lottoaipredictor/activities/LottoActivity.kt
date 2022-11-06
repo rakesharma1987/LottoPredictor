@@ -109,8 +109,8 @@ class LottoActivity : BaseActivity(), View.OnClickListener {
         layoutColSevenBinding = LayoutColSevenBinding.bind(view)
 
 
-        MobileAds.initialize(this)
-        binding.bannerAdview.loadAd(AdRequest.Builder().build())
+//        MobileAds.initialize(this)
+//        binding.bannerAdview.loadAd(AdRequest.Builder().build())
 
 
 
@@ -1684,28 +1684,28 @@ class LottoActivity : BaseActivity(), View.OnClickListener {
 
             R.id.btn_gen_2nos -> {
                 binding.recyclerview6column.visibility = View.VISIBLE
-                var adRequest = AdRequest.Builder().build()
-                InterstitialAd.load(
-                    this,
-                    "ca-app-pub-3164749634609559/7102887092",
-                    adRequest,
-                    object : InterstitialAdLoadCallback() {
-                        override fun onAdFailedToLoad(adError: LoadAdError) {
-                            adError?.toString()?.let { Log.d(TAG, it) }
-                            mInterstitialAd = null
-                        }
-
-                        override fun onAdLoaded(interstitialAd: InterstitialAd) {
-                            Log.d(TAG, "Ad was loaded.")
-                            mInterstitialAd = interstitialAd
-                        }
-                    })
-
-                if (mInterstitialAd != null) {
-//                    mInterstitialAd?.show(this)
-                } else {
-                    Log.d("TAG", "The interstitial ad wasn't ready yet.")
-                }
+//                var adRequest = AdRequest.Builder().build()
+//                InterstitialAd.load(
+//                    this,
+//                    "ca-app-pub-3164749634609559/7102887092",
+//                    adRequest,
+//                    object : InterstitialAdLoadCallback() {
+//                        override fun onAdFailedToLoad(adError: LoadAdError) {
+//                            adError?.toString()?.let { Log.d(TAG, it) }
+//                            mInterstitialAd = null
+//                        }
+//
+//                        override fun onAdLoaded(interstitialAd: InterstitialAd) {
+//                            Log.d(TAG, "Ad was loaded.")
+//                            mInterstitialAd = interstitialAd
+//                        }
+//                    })
+//
+//                if (mInterstitialAd != null) {
+////                    mInterstitialAd?.show(this)
+//                } else {
+//                    Log.d("TAG", "The interstitial ad wasn't ready yet.")
+//                }
 
                 if (binding.tvColNo.text.toString() != "-" && binding.tvColNo.text.toString() == "6") {
                     if (binding.tvMaxNo.text.toString() == "-"
