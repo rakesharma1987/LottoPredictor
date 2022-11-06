@@ -2710,7 +2710,7 @@ class LottoActivity : BaseActivity(), View.OnClickListener {
                                             flowPurchase
                                         ).responseCode
                                         if (responseCode == 0) {
-                                            GooglePlayBillingPreferences.setPurchased(true)
+                                            GooglePlayBillingPreferences.setPurchased(false)
 //                                            binding.btnGen40nos.text = "Generate 40's Lines/Rows"
                                         }else{
                                             GooglePlayBillingPreferences.setPurchased(true)
@@ -8835,6 +8835,14 @@ class LottoActivity : BaseActivity(), View.OnClickListener {
                             num6 = num6.toInt().div(4).plus(1).toString()
                         }
                     }
+                    if (num7.toInt() <= binding.tvMaxNo.text.toString().toInt()) {
+
+                    } else {
+                        num7 = num7.toInt().div(3).toString()
+                        if (num7.toInt() > binding.tvMaxNo.text.toString().toInt()) {
+                            num7 = num7.toInt().div(4).plus(1).toString()
+                        }
+                    }
                     if (num1.toInt() == num2.toInt()) num2 = num2.toInt().plus(4).toString()
                     if (num1.toInt() == num3.toInt()) num3 = num3.toInt().plus(1).toString()
                     if (num1.toInt() == num4.toInt()) num4 = num4.toInt().div(2).toString()
@@ -8918,6 +8926,14 @@ class LottoActivity : BaseActivity(), View.OnClickListener {
                             num6 = num6.toInt().div(4).plus(1).toString()
                         }
                     }
+                    if (num7.toInt() <= binding.tvMaxNo.text.toString().toInt()) {
+
+                    } else {
+                        num7 = num7.toInt().div(3).toString()
+                        if (num7.toInt() > binding.tvMaxNo.text.toString().toInt()) {
+                            num7 = num7.toInt().div(4).plus(1).toString()
+                        }
+                    }
                     if (num1.toInt() == num2.toInt()) num2 = num2.toInt().minus(1).toString()
                     if (num1.toInt() == num3.toInt()) num3 = num3.toInt().minus(3).toString()
                     if (num1.toInt() == num4.toInt()) num4 = num4.toInt().minus(2).toString()
@@ -8995,6 +9011,14 @@ class LottoActivity : BaseActivity(), View.OnClickListener {
                         num6 = num6.toInt().div(2).toString()
                         if (num6.toInt() > binding.tvMaxNo.text.toString().toInt()) {
                             num6 = num6.toInt().div(4).plus(1).toString()
+                        }
+                    }
+                    if (num7.toInt() <= binding.tvMaxNo.text.toString().toInt()) {
+
+                    } else {
+                        num7 = num7.toInt().div(3).toString()
+                        if (num7.toInt() > binding.tvMaxNo.text.toString().toInt()) {
+                            num7 = num7.toInt().div(4).plus(1).toString()
                         }
                     }
                     if (num1.toInt() == num2.toInt()) num2 = num2.toInt().minus(1).toString()
@@ -9076,6 +9100,14 @@ class LottoActivity : BaseActivity(), View.OnClickListener {
                             num6 = num6.toInt().div(4).plus(1).toString()
                         }
                     }
+                    if (num7.toInt() <= binding.tvMaxNo.text.toString().toInt()) {
+
+                    } else {
+                        num7 = num7.toInt().div(3).toString()
+                        if (num7.toInt() > binding.tvMaxNo.text.toString().toInt()) {
+                            num7 = num7.toInt().div(4).plus(1).toString()
+                        }
+                    }
                     if (num1.toInt() == num2.toInt()) num2 = num2.toInt().minus(1).toString()
                     if (num1.toInt() == num3.toInt()) num3 = num3.toInt().minus(3).toString()
                     if (num1.toInt() == num4.toInt()) num4 = num4.toInt().minus(2).toString()
@@ -9153,6 +9185,14 @@ class LottoActivity : BaseActivity(), View.OnClickListener {
                         num6 = num6.toInt().div(2).toString()
                         if (num6.toInt() > binding.tvMaxNo.text.toString().toInt()) {
                             num6 = num6.toInt().div(4).plus(1).toString()
+                        }
+                    }
+                    if (num7.toInt() <= binding.tvMaxNo.text.toString().toInt()) {
+
+                    } else {
+                        num7 = num7.toInt().div(3).toString()
+                        if (num7.toInt() > binding.tvMaxNo.text.toString().toInt()) {
+                            num7 = num7.toInt().div(4).plus(1).toString()
                         }
                     }
                     if (num1.toInt() == num2.toInt()) num2 = num2.toInt().minus(1).toString()
@@ -9234,6 +9274,14 @@ class LottoActivity : BaseActivity(), View.OnClickListener {
                             num6 = num6.toInt().div(4).plus(1).toString()
                         }
                     }
+                    if (num7.toInt() <= binding.tvMaxNo.text.toString().toInt()) {
+
+                    } else {
+                        num7 = num7.toInt().div(3).toString()
+                        if (num7.toInt() > binding.tvMaxNo.text.toString().toInt()) {
+                            num7 = num7.toInt().div(4).plus(1).toString()
+                        }
+                    }
                     if (num1.toInt() == num2.toInt()) num2 = num2.toInt().minus(1).toString()
                     if (num1.toInt() == num3.toInt()) num3 = num3.toInt().minus(3).toString()
                     if (num1.toInt() == num4.toInt()) num4 = num4.toInt().minus(2).toString()
@@ -9311,6 +9359,14 @@ class LottoActivity : BaseActivity(), View.OnClickListener {
                         num6 = num6.toInt().div(2).toString()
                         if (num6.toInt() > binding.tvMaxNo.text.toString().toInt()) {
                             num6 = num6.toInt().div(4).plus(1).toString()
+                        }
+                    }
+                    if (num7.toInt() <= binding.tvMaxNo.text.toString().toInt()) {
+
+                    } else {
+                        num7 = num7.toInt().div(3).toString()
+                        if (num7.toInt() > binding.tvMaxNo.text.toString().toInt()) {
+                            num7 = num7.toInt().div(4).plus(1).toString()
                         }
                     }
                     if (num1.toInt() == num2.toInt()) num2 = num2.toInt().minus(1).toString()
@@ -9392,6 +9448,14 @@ class LottoActivity : BaseActivity(), View.OnClickListener {
                             num6 = num6.toInt().div(4).plus(1).toString()
                         }
                     }
+                    if (num7.toInt() <= binding.tvMaxNo.text.toString().toInt()) {
+
+                    } else {
+                        num7 = num7.toInt().div(3).toString()
+                        if (num7.toInt() > binding.tvMaxNo.text.toString().toInt()) {
+                            num7 = num7.toInt().div(4).plus(1).toString()
+                        }
+                    }
                     if (num1.toInt() == num2.toInt()) num2 = num2.toInt().minus(1).toString()
                     if (num1.toInt() == num3.toInt()) num3 = num3.toInt().minus(3).toString()
                     if (num1.toInt() == num4.toInt()) num4 = num4.toInt().minus(2).toString()
@@ -9469,6 +9533,14 @@ class LottoActivity : BaseActivity(), View.OnClickListener {
                         num6 = num6.toInt().div(2).toString()
                         if (num6.toInt() > binding.tvMaxNo.text.toString().toInt()) {
                             num6 = num6.toInt().div(4).plus(1).toString()
+                        }
+                    }
+                    if (num7.toInt() <= binding.tvMaxNo.text.toString().toInt()) {
+
+                    } else {
+                        num7 = num7.toInt().div(3).toString()
+                        if (num7.toInt() > binding.tvMaxNo.text.toString().toInt()) {
+                            num7 = num7.toInt().div(4).plus(1).toString()
                         }
                     }
                     if (num1.toInt() == num2.toInt()) num2 = num2.toInt().minus(1).toString()
@@ -9550,6 +9622,14 @@ class LottoActivity : BaseActivity(), View.OnClickListener {
                             num6 = num6.toInt().div(4).plus(1).toString()
                         }
                     }
+                    if (num7.toInt() <= binding.tvMaxNo.text.toString().toInt()) {
+
+                    } else {
+                        num7 = num7.toInt().div(3).toString()
+                        if (num7.toInt() > binding.tvMaxNo.text.toString().toInt()) {
+                            num7 = num7.toInt().div(4).plus(1).toString()
+                        }
+                    }
                     if (num1.toInt() == num2.toInt()) num2 = num2.toInt().minus(1).toString()
                     if (num1.toInt() == num3.toInt()) num3 = num3.toInt().minus(3).toString()
                     if (num1.toInt() == num4.toInt()) num4 = num4.toInt().minus(2).toString()
@@ -9627,6 +9707,14 @@ class LottoActivity : BaseActivity(), View.OnClickListener {
                         num6 = num6.toInt().div(2).toString()
                         if (num6.toInt() > binding.tvMaxNo.text.toString().toInt()) {
                             num6 = num6.toInt().div(4).plus(1).toString()
+                        }
+                    }
+                    if (num7.toInt() <= binding.tvMaxNo.text.toString().toInt()) {
+
+                    } else {
+                        num7 = num7.toInt().div(3).toString()
+                        if (num7.toInt() > binding.tvMaxNo.text.toString().toInt()) {
+                            num7 = num7.toInt().div(4).plus(1).toString()
                         }
                     }
                     if (num1.toInt() == num2.toInt()) num2 = num2.toInt().minus(1).toString()
@@ -9708,6 +9796,14 @@ class LottoActivity : BaseActivity(), View.OnClickListener {
                             num6 = num6.toInt().div(4).plus(1).toString()
                         }
                     }
+                    if (num7.toInt() <= binding.tvMaxNo.text.toString().toInt()) {
+
+                    } else {
+                        num7 = num7.toInt().div(3).toString()
+                        if (num7.toInt() > binding.tvMaxNo.text.toString().toInt()) {
+                            num7 = num7.toInt().div(4).plus(1).toString()
+                        }
+                    }
                     if (num1.toInt() == num2.toInt()) num2 = num2.toInt().minus(1).toString()
                     if (num1.toInt() == num3.toInt()) num3 = num3.toInt().minus(3).toString()
                     if (num1.toInt() == num4.toInt()) num4 = num4.toInt().minus(2).toString()
@@ -9785,6 +9881,14 @@ class LottoActivity : BaseActivity(), View.OnClickListener {
                         num6 = num6.toInt().div(2).toString()
                         if (num6.toInt() > binding.tvMaxNo.text.toString().toInt()) {
                             num6 = num6.toInt().div(4).plus(1).toString()
+                        }
+                    }
+                    if (num7.toInt() <= binding.tvMaxNo.text.toString().toInt()) {
+
+                    } else {
+                        num7 = num7.toInt().div(3).toString()
+                        if (num7.toInt() > binding.tvMaxNo.text.toString().toInt()) {
+                            num7 = num7.toInt().div(4).plus(1).toString()
                         }
                     }
                     if (num1.toInt() == num2.toInt()) num2 = num2.toInt().minus(1).toString()
@@ -9866,6 +9970,14 @@ class LottoActivity : BaseActivity(), View.OnClickListener {
                             num6 = num6.toInt().div(4).plus(1).toString()
                         }
                     }
+                    if (num7.toInt() <= binding.tvMaxNo.text.toString().toInt()) {
+
+                    } else {
+                        num7 = num7.toInt().div(3).toString()
+                        if (num7.toInt() > binding.tvMaxNo.text.toString().toInt()) {
+                            num7 = num7.toInt().div(4).plus(1).toString()
+                        }
+                    }
                     if (num1.toInt() == num2.toInt()) num2 = num2.toInt().minus(1).toString()
                     if (num1.toInt() == num3.toInt()) num3 = num3.toInt().minus(3).toString()
                     if (num1.toInt() == num4.toInt()) num4 = num4.toInt().minus(2).toString()
@@ -9943,6 +10055,14 @@ class LottoActivity : BaseActivity(), View.OnClickListener {
                         num6 = num6.toInt().div(2).toString()
                         if (num6.toInt() > binding.tvMaxNo.text.toString().toInt()) {
                             num6 = num6.toInt().div(4).plus(1).toString()
+                        }
+                    }
+                    if (num7.toInt() <= binding.tvMaxNo.text.toString().toInt()) {
+
+                    } else {
+                        num7 = num7.toInt().div(3).toString()
+                        if (num7.toInt() > binding.tvMaxNo.text.toString().toInt()) {
+                            num7 = num7.toInt().div(4).plus(1).toString()
                         }
                     }
                     if (num1.toInt() == num2.toInt()) num2 = num2.toInt().minus(1).toString()
@@ -10024,6 +10144,14 @@ class LottoActivity : BaseActivity(), View.OnClickListener {
                             num6 = num6.toInt().div(4).plus(1).toString()
                         }
                     }
+                    if (num7.toInt() <= binding.tvMaxNo.text.toString().toInt()) {
+
+                    } else {
+                        num7 = num7.toInt().div(3).toString()
+                        if (num7.toInt() > binding.tvMaxNo.text.toString().toInt()) {
+                            num7 = num7.toInt().div(4).plus(1).toString()
+                        }
+                    }
                     if (num1.toInt() == num2.toInt()) num2 = num2.toInt().minus(1).toString()
                     if (num1.toInt() == num3.toInt()) num3 = num3.toInt().minus(3).toString()
                     if (num1.toInt() == num4.toInt()) num4 = num4.toInt().minus(2).toString()
@@ -10101,6 +10229,14 @@ class LottoActivity : BaseActivity(), View.OnClickListener {
                         num6 = num6.toInt().div(2).toString()
                         if (num6.toInt() > binding.tvMaxNo.text.toString().toInt()) {
                             num6 = num6.toInt().div(4).plus(1).toString()
+                        }
+                    }
+                    if (num7.toInt() <= binding.tvMaxNo.text.toString().toInt()) {
+
+                    } else {
+                        num7 = num7.toInt().div(3).toString()
+                        if (num7.toInt() > binding.tvMaxNo.text.toString().toInt()) {
+                            num7 = num7.toInt().div(4).plus(1).toString()
                         }
                     }
                     if (num1.toInt() == num2.toInt()) num2 = num2.toInt().minus(1).toString()
@@ -10182,6 +10318,14 @@ class LottoActivity : BaseActivity(), View.OnClickListener {
                             num6 = num6.toInt().div(4).plus(1).toString()
                         }
                     }
+                    if (num7.toInt() <= binding.tvMaxNo.text.toString().toInt()) {
+
+                    } else {
+                        num7 = num7.toInt().div(3).toString()
+                        if (num7.toInt() > binding.tvMaxNo.text.toString().toInt()) {
+                            num7 = num7.toInt().div(4).plus(1).toString()
+                        }
+                    }
                     if (num1.toInt() == num2.toInt()) num2 = num2.toInt().minus(1).toString()
                     if (num1.toInt() == num3.toInt()) num3 = num3.toInt().minus(3).toString()
                     if (num1.toInt() == num4.toInt()) num4 = num4.toInt().minus(2).toString()
@@ -10259,6 +10403,14 @@ class LottoActivity : BaseActivity(), View.OnClickListener {
                         num6 = num6.toInt().div(2).toString()
                         if (num6.toInt() > binding.tvMaxNo.text.toString().toInt()) {
                             num6 = num6.toInt().div(4).plus(1).toString()
+                        }
+                    }
+                    if (num7.toInt() <= binding.tvMaxNo.text.toString().toInt()) {
+
+                    } else {
+                        num7 = num7.toInt().div(3).toString()
+                        if (num7.toInt() > binding.tvMaxNo.text.toString().toInt()) {
+                            num7 = num7.toInt().div(4).plus(1).toString()
                         }
                     }
                     if (num1.toInt() == num2.toInt()) num2 = num2.toInt().minus(1).toString()
@@ -10340,6 +10492,14 @@ class LottoActivity : BaseActivity(), View.OnClickListener {
                             num6 = num6.toInt().div(4).plus(1).toString()
                         }
                     }
+                    if (num7.toInt() <= binding.tvMaxNo.text.toString().toInt()) {
+
+                    } else {
+                        num7 = num7.toInt().div(3).toString()
+                        if (num7.toInt() > binding.tvMaxNo.text.toString().toInt()) {
+                            num7 = num7.toInt().div(4).plus(1).toString()
+                        }
+                    }
                     if (num1.toInt() == num2.toInt()) num2 = num2.toInt().minus(1).toString()
                     if (num1.toInt() == num3.toInt()) num3 = num3.toInt().minus(3).toString()
                     if (num1.toInt() == num4.toInt()) num4 = num4.toInt().minus(2).toString()
@@ -10417,6 +10577,14 @@ class LottoActivity : BaseActivity(), View.OnClickListener {
                         num6 = num6.toInt().div(2).toString()
                         if (num6.toInt() > binding.tvMaxNo.text.toString().toInt()) {
                             num6 = num6.toInt().div(4).plus(1).toString()
+                        }
+                    }
+                    if (num7.toInt() <= binding.tvMaxNo.text.toString().toInt()) {
+
+                    } else {
+                        num7 = num7.toInt().div(3).toString()
+                        if (num7.toInt() > binding.tvMaxNo.text.toString().toInt()) {
+                            num7 = num7.toInt().div(4).plus(1).toString()
                         }
                     }
                     if (num1.toInt() == num2.toInt()) num2 = num2.toInt().minus(1).toString()
@@ -10498,6 +10666,14 @@ class LottoActivity : BaseActivity(), View.OnClickListener {
                             num6 = num6.toInt().div(4).plus(1).toString()
                         }
                     }
+                    if (num7.toInt() <= binding.tvMaxNo.text.toString().toInt()) {
+
+                    } else {
+                        num7 = num7.toInt().div(3).toString()
+                        if (num7.toInt() > binding.tvMaxNo.text.toString().toInt()) {
+                            num7 = num7.toInt().div(4).plus(1).toString()
+                        }
+                    }
                     if (num1.toInt() == num2.toInt()) num2 = num2.toInt().minus(1).toString()
                     if (num1.toInt() == num3.toInt()) num3 = num3.toInt().minus(3).toString()
                     if (num1.toInt() == num4.toInt()) num4 = num4.toInt().minus(2).toString()
@@ -10575,6 +10751,14 @@ class LottoActivity : BaseActivity(), View.OnClickListener {
                         num6 = num6.toInt().div(2).toString()
                         if (num6.toInt() > binding.tvMaxNo.text.toString().toInt()) {
                             num6 = num6.toInt().div(4).plus(1).toString()
+                        }
+                    }
+                    if (num7.toInt() <= binding.tvMaxNo.text.toString().toInt()) {
+
+                    } else {
+                        num7 = num7.toInt().div(3).toString()
+                        if (num7.toInt() > binding.tvMaxNo.text.toString().toInt()) {
+                            num7 = num7.toInt().div(4).plus(1).toString()
                         }
                     }
                     if (num1.toInt() == num2.toInt()) num2 = num2.toInt().minus(1).toString()
@@ -10656,6 +10840,14 @@ class LottoActivity : BaseActivity(), View.OnClickListener {
                             num6 = num6.toInt().div(4).plus(1).toString()
                         }
                     }
+                    if (num7.toInt() <= binding.tvMaxNo.text.toString().toInt()) {
+
+                    } else {
+                        num7 = num7.toInt().div(3).toString()
+                        if (num7.toInt() > binding.tvMaxNo.text.toString().toInt()) {
+                            num7 = num7.toInt().div(4).plus(1).toString()
+                        }
+                    }
                     if (num1.toInt() == num2.toInt()) num2 = num2.toInt().minus(1).toString()
                     if (num1.toInt() == num3.toInt()) num3 = num3.toInt().minus(3).toString()
                     if (num1.toInt() == num4.toInt()) num4 = num4.toInt().minus(2).toString()
@@ -10733,6 +10925,14 @@ class LottoActivity : BaseActivity(), View.OnClickListener {
                         num6 = num6.toInt().div(2).toString()
                         if (num6.toInt() > binding.tvMaxNo.text.toString().toInt()) {
                             num6 = num6.toInt().div(4).plus(1).toString()
+                        }
+                    }
+                    if (num7.toInt() <= binding.tvMaxNo.text.toString().toInt()) {
+
+                    } else {
+                        num7 = num7.toInt().div(3).toString()
+                        if (num7.toInt() > binding.tvMaxNo.text.toString().toInt()) {
+                            num7 = num7.toInt().div(4).plus(1).toString()
                         }
                     }
                     if (num1.toInt() == num2.toInt()) num2 = num2.toInt().minus(1).toString()
@@ -10814,6 +11014,14 @@ class LottoActivity : BaseActivity(), View.OnClickListener {
                             num6 = num6.toInt().div(4).plus(1).toString()
                         }
                     }
+                    if (num7.toInt() <= binding.tvMaxNo.text.toString().toInt()) {
+
+                    } else {
+                        num7 = num7.toInt().div(3).toString()
+                        if (num7.toInt() > binding.tvMaxNo.text.toString().toInt()) {
+                            num7 = num7.toInt().div(4).plus(1).toString()
+                        }
+                    }
                     if (num1.toInt() == num2.toInt()) num2 = num2.toInt().minus(1).toString()
                     if (num1.toInt() == num3.toInt()) num3 = num3.toInt().minus(3).toString()
                     if (num1.toInt() == num4.toInt()) num4 = num4.toInt().minus(2).toString()
@@ -10891,6 +11099,14 @@ class LottoActivity : BaseActivity(), View.OnClickListener {
                         num6 = num6.toInt().div(2).toString()
                         if (num6.toInt() > binding.tvMaxNo.text.toString().toInt()) {
                             num6 = num6.toInt().div(4).plus(1).toString()
+                        }
+                    }
+                    if (num7.toInt() <= binding.tvMaxNo.text.toString().toInt()) {
+
+                    } else {
+                        num7 = num7.toInt().div(3).toString()
+                        if (num7.toInt() > binding.tvMaxNo.text.toString().toInt()) {
+                            num7 = num7.toInt().div(4).plus(1).toString()
                         }
                     }
                     if (num1.toInt() == num2.toInt()) num2 = num2.toInt().minus(1).toString()
@@ -10972,6 +11188,14 @@ class LottoActivity : BaseActivity(), View.OnClickListener {
                             num6 = num6.toInt().div(4).plus(1).toString()
                         }
                     }
+                    if (num7.toInt() <= binding.tvMaxNo.text.toString().toInt()) {
+
+                    } else {
+                        num7 = num7.toInt().div(3).toString()
+                        if (num7.toInt() > binding.tvMaxNo.text.toString().toInt()) {
+                            num7 = num7.toInt().div(4).plus(1).toString()
+                        }
+                    }
                     if (num1.toInt() == num2.toInt()) num2 = num2.toInt().minus(1).toString()
                     if (num1.toInt() == num3.toInt()) num3 = num3.toInt().minus(3).toString()
                     if (num1.toInt() == num4.toInt()) num4 = num4.toInt().minus(2).toString()
@@ -11049,6 +11273,14 @@ class LottoActivity : BaseActivity(), View.OnClickListener {
                         num6 = num6.toInt().div(2).toString()
                         if (num6.toInt() > binding.tvMaxNo.text.toString().toInt()) {
                             num6 = num6.toInt().div(4).plus(1).toString()
+                        }
+                    }
+                    if (num7.toInt() <= binding.tvMaxNo.text.toString().toInt()) {
+
+                    } else {
+                        num7 = num7.toInt().div(3).toString()
+                        if (num7.toInt() > binding.tvMaxNo.text.toString().toInt()) {
+                            num7 = num7.toInt().div(4).plus(1).toString()
                         }
                     }
                     if (num1.toInt() == num2.toInt()) num2 = num2.toInt().minus(1).toString()
@@ -11130,6 +11362,14 @@ class LottoActivity : BaseActivity(), View.OnClickListener {
                             num6 = num6.toInt().div(4).plus(1).toString()
                         }
                     }
+                    if (num7.toInt() <= binding.tvMaxNo.text.toString().toInt()) {
+
+                    } else {
+                        num7 = num7.toInt().div(3).toString()
+                        if (num7.toInt() > binding.tvMaxNo.text.toString().toInt()) {
+                            num7 = num7.toInt().div(4).plus(1).toString()
+                        }
+                    }
                     if (num1.toInt() == num2.toInt()) num2 = num2.toInt().minus(1).toString()
                     if (num1.toInt() == num3.toInt()) num3 = num3.toInt().minus(3).toString()
                     if (num1.toInt() == num4.toInt()) num4 = num4.toInt().minus(2).toString()
@@ -11207,6 +11447,14 @@ class LottoActivity : BaseActivity(), View.OnClickListener {
                         num6 = num6.toInt().div(2).toString()
                         if (num6.toInt() > binding.tvMaxNo.text.toString().toInt()) {
                             num6 = num6.toInt().div(4).plus(1).toString()
+                        }
+                    }
+                    if (num7.toInt() <= binding.tvMaxNo.text.toString().toInt()) {
+
+                    } else {
+                        num7 = num7.toInt().div(3).toString()
+                        if (num7.toInt() > binding.tvMaxNo.text.toString().toInt()) {
+                            num7 = num7.toInt().div(4).plus(1).toString()
                         }
                     }
                     if (num1.toInt() == num2.toInt()) num2 = num2.toInt().minus(1).toString()
@@ -11288,6 +11536,14 @@ class LottoActivity : BaseActivity(), View.OnClickListener {
                             num6 = num6.toInt().div(4).plus(1).toString()
                         }
                     }
+                    if (num7.toInt() <= binding.tvMaxNo.text.toString().toInt()) {
+
+                    } else {
+                        num7 = num7.toInt().div(3).toString()
+                        if (num7.toInt() > binding.tvMaxNo.text.toString().toInt()) {
+                            num7 = num7.toInt().div(4).plus(1).toString()
+                        }
+                    }
                     if (num1.toInt() == num2.toInt()) num2 = num2.toInt().minus(1).toString()
                     if (num1.toInt() == num3.toInt()) num3 = num3.toInt().minus(3).toString()
                     if (num1.toInt() == num4.toInt()) num4 = num4.toInt().minus(2).toString()
@@ -11365,6 +11621,14 @@ class LottoActivity : BaseActivity(), View.OnClickListener {
                         num6 = num6.toInt().div(2).toString()
                         if (num6.toInt() > binding.tvMaxNo.text.toString().toInt()) {
                             num6 = num6.toInt().div(4).plus(1).toString()
+                        }
+                    }
+                    if (num7.toInt() <= binding.tvMaxNo.text.toString().toInt()) {
+
+                    } else {
+                        num7 = num7.toInt().div(3).toString()
+                        if (num7.toInt() > binding.tvMaxNo.text.toString().toInt()) {
+                            num7 = num7.toInt().div(4).plus(1).toString()
                         }
                     }
                     if (num1.toInt() == num2.toInt()) num2 = num2.toInt().minus(1).toString()
@@ -11446,6 +11710,14 @@ class LottoActivity : BaseActivity(), View.OnClickListener {
                             num6 = num6.toInt().div(4).plus(1).toString()
                         }
                     }
+                    if (num7.toInt() <= binding.tvMaxNo.text.toString().toInt()) {
+
+                    } else {
+                        num7 = num7.toInt().div(3).toString()
+                        if (num7.toInt() > binding.tvMaxNo.text.toString().toInt()) {
+                            num7 = num7.toInt().div(4).plus(1).toString()
+                        }
+                    }
                     if (num1.toInt() == num2.toInt()) num2 = num2.toInt().minus(1).toString()
                     if (num1.toInt() == num3.toInt()) num3 = num3.toInt().minus(3).toString()
                     if (num1.toInt() == num4.toInt()) num4 = num4.toInt().minus(2).toString()
@@ -11525,6 +11797,14 @@ class LottoActivity : BaseActivity(), View.OnClickListener {
                             num6 = num6.toInt().div(4).plus(1).toString()
                         }
                     }
+                    if (num7.toInt() <= binding.tvMaxNo.text.toString().toInt()) {
+
+                    } else {
+                        num7 = num7.toInt().div(3).toString()
+                        if (num7.toInt() > binding.tvMaxNo.text.toString().toInt()) {
+                            num7 = num7.toInt().div(4).plus(1).toString()
+                        }
+                    }
                     if (num1.toInt() == num2.toInt()) num2 = num2.toInt().minus(1).toString()
                     if (num1.toInt() == num3.toInt()) num3 = num3.toInt().minus(3).toString()
                     if (num1.toInt() == num4.toInt()) num4 = num4.toInt().minus(2).toString()
@@ -11601,6 +11881,14 @@ class LottoActivity : BaseActivity(), View.OnClickListener {
                             num6 = num6.toInt().div(4).plus(1).toString()
                         }
                     }
+                    if (num7.toInt() <= binding.tvMaxNo.text.toString().toInt()) {
+
+                    } else {
+                        num7 = num7.toInt().div(3).toString()
+                        if (num7.toInt() > binding.tvMaxNo.text.toString().toInt()) {
+                            num7 = num7.toInt().div(4).plus(1).toString()
+                        }
+                    }
                     if (num1.toInt() == num2.toInt()) num2 = num2.toInt().minus(1).toString()
                     if (num1.toInt() == num3.toInt()) num3 = num3.toInt().minus(3).toString()
                     if (num1.toInt() == num4.toInt()) num4 = num4.toInt().minus(2).toString()
@@ -11675,6 +11963,14 @@ class LottoActivity : BaseActivity(), View.OnClickListener {
                         num6 = num6.toInt().div(2).toString()
                         if (num6.toInt() > binding.tvMaxNo.text.toString().toInt()) {
                             num6 = num6.toInt().div(4).plus(1).toString()
+                        }
+                    }
+                    if (num7.toInt() <= binding.tvMaxNo.text.toString().toInt()) {
+
+                    } else {
+                        num7 = num7.toInt().div(3).toString()
+                        if (num7.toInt() > binding.tvMaxNo.text.toString().toInt()) {
+                            num7 = num7.toInt().div(4).plus(1).toString()
                         }
                     }
                     if (num1.toInt() == num2.toInt()) num2 = num2.toInt().minus(1).toString()
@@ -11756,6 +12052,14 @@ class LottoActivity : BaseActivity(), View.OnClickListener {
                             num6 = num6.toInt().div(4).plus(1).toString()
                         }
                     }
+                    if (num7.toInt() <= binding.tvMaxNo.text.toString().toInt()) {
+
+                    } else {
+                        num7 = num7.toInt().div(3).toString()
+                        if (num7.toInt() > binding.tvMaxNo.text.toString().toInt()) {
+                            num7 = num7.toInt().div(4).plus(1).toString()
+                        }
+                    }
                     if (num1.toInt() == num2.toInt()) num2 = num2.toInt().minus(1).toString()
                     if (num1.toInt() == num3.toInt()) num3 = num3.toInt().minus(3).toString()
                     if (num1.toInt() == num4.toInt()) num4 = num4.toInt().minus(2).toString()
@@ -11835,6 +12139,14 @@ class LottoActivity : BaseActivity(), View.OnClickListener {
                             num6 = num6.toInt().div(4).plus(1).toString()
                         }
                     }
+                    if (num7.toInt() <= binding.tvMaxNo.text.toString().toInt()) {
+
+                    } else {
+                        num7 = num7.toInt().div(3).toString()
+                        if (num7.toInt() > binding.tvMaxNo.text.toString().toInt()) {
+                            num7 = num7.toInt().div(4).plus(1).toString()
+                        }
+                    }
                     if (num1.toInt() == num2.toInt()) num2 = num2.toInt().minus(1).toString()
                     if (num1.toInt() == num3.toInt()) num3 = num3.toInt().minus(3).toString()
                     if (num1.toInt() == num4.toInt()) num4 = num4.toInt().minus(2).toString()
@@ -11912,6 +12224,14 @@ class LottoActivity : BaseActivity(), View.OnClickListener {
                         num6 = num6.toInt().div(2).toString()
                         if (num6.toInt() > binding.tvMaxNo.text.toString().toInt()) {
                             num6 = num6.toInt().div(4).plus(1).toString()
+                        }
+                    }
+                    if (num7.toInt() <= binding.tvMaxNo.text.toString().toInt()) {
+
+                    } else {
+                        num7 = num7.toInt().div(3).toString()
+                        if (num7.toInt() > binding.tvMaxNo.text.toString().toInt()) {
+                            num7 = num7.toInt().div(4).plus(1).toString()
                         }
                     }
                     if (num1.toInt() == num2.toInt()) num2 = num2.toInt().minus(1).toString()
