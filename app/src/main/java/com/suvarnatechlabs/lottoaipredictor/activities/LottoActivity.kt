@@ -2710,10 +2710,10 @@ class LottoActivity : BaseActivity(), View.OnClickListener {
                                             flowPurchase
                                         ).responseCode
                                         if (responseCode == 0) {
-                                            GooglePlayBillingPreferences.setPurchased(
-                                                true
-                                            )
+                                            GooglePlayBillingPreferences.setPurchased(true)
 //                                            binding.btnGen40nos.text = "Generate 40's Lines/Rows"
+                                        }else{
+                                            GooglePlayBillingPreferences.setPurchased(true)
                                         }
                                     }
                                 }
